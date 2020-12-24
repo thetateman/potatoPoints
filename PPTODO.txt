@@ -1,0 +1,8 @@
+1. calculate winner of tricks
+2. add prize amount to winner's points total
+
+3. random play mode
+
+4. AI opponent mode
+
+5. NN AI opponent mode
