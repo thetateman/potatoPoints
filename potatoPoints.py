@@ -193,6 +193,7 @@ for trickIndex in range(10):
         if playedCard.value % 2 == 0:
             trickSum = trickSum + playedCard.value
     players[playerWinningTrick].points = players[playerWinningTrick].points + trickSum
+    lastRoundWinner = playerWinningTrick
     for index in range(4):
         print("Player " + str(index) + ": " + str(players[index].points))
 
